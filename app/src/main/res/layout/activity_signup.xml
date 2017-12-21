@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlogo"
+    android:orientation="vertical"
+    tools:context="com.example.adams.tradersportal.SignupActivity">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/tradelogo" />
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/primary_light_rounded_rectangle"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_person_black_24dp"
+            android:ems="40"
+            android:gravity="start|center_vertical"
+            android:hint="Name"
+            android:layout_marginTop="16dp"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/dot_active"
+            android:textColorHint="@color/dot_active"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/primary_light_rounded_rectangle"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_email_24dp"
+            android:gravity="start|center_vertical"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLength="140"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/dot_active"
+            android:textColorHint="@color/dot_active"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/primary_light_rounded_rectangle"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_contact_24dp"
+            android:gravity="start|center_vertical"
+            android:hint="Contact"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/dot_active"
+            android:textColorHint="@color/dot_active"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/primary_light_rounded_rectangle"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_password_24dp"
+            android:gravity="start|center_vertical"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLength="8"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/dot_active"
+            android:textColorHint="@color/dot_active"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/buttonsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/primary_light_rectangle"
+            android:gravity="center"
+            android:minWidth="90dp"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="signup"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewsignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:paddingTop="16dp"
+            android:text="Already Registered? Sign In Here"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</ScrollView>

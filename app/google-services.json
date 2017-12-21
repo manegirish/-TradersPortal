@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "437768785037",
+    "firebase_url": "https://tradersportal-5d4c0.firebaseio.com",
+    "project_id": "tradersportal-5d4c0",
+    "storage_bucket": "tradersportal-5d4c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437768785037:android:9753e36f35dee113",
+        "android_client_info": {
+          "package_name": "com.example.adams.tradersportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437768785037-0t11pp81i2pjnv4lji36552feb8ssa9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adams.tradersportal",
+            "certificate_hash": "9c7a16dee58ad4d91c4948e65ce72ac27b0b7f8d"
+          }
+        },
+        {
+          "client_id": "437768785037-iqovnma71b012l33jpneaqduhcjt58vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9ScQ3r7mfI6Ie0k83DmiLjN66GeabOM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437768785037-iqovnma71b012l33jpneaqduhcjt58vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

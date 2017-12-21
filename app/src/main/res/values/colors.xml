@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f9b340</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <!-- splash color -->
+    <color name="colorlogo">#EC8067</color>
+    <!-- slide 1 color -->
+    <color name="buy">#E85858</color>
+    <!-- slide 2 color -->
+    <color name="sell">#6DB8DE</color>
+    <!-- slide 3 color -->
+    <color name="admin">#34495E</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+    <color name="colorPrimaryLight">#f9c97a</color>
+    <color name="grey_e7">#e7e7e7</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
