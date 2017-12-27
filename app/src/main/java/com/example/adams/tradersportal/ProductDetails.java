@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 
-public class ProductDetails extends AppCompatActivity {
+public class  ProductDetails extends AppCompatActivity {
 
     TextView productname, productprice, productdescription;
     ImageView productimage;

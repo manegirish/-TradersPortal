@@ -56,24 +56,6 @@
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editTextQuantity"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/primary_light_rounded_rectangle"
-            android:drawablePadding="10dp"
-            android:gravity="start|center_vertical"
-            android:hint="Product Quantity"
-            android:imeOptions="actionNext"
-            android:inputType="number"
-            android:maxLength="140"
-            android:paddingEnd="10dp"
-            android:paddingStart="10dp"
-            android:textColor="@color/dot_active"
-            android:textColorHint="@color/dot_active"
-            android:textSize="14sp" />
-
-        <EditText
             android:id="@+id/editTextPrice"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -85,24 +67,6 @@
             android:imeOptions="actionDone"
             android:inputType="number"
             android:maxLength="10"
-            android:paddingEnd="10dp"
-            android:paddingStart="10dp"
-            android:textColor="@color/dot_active"
-            android:textColorHint="@color/dot_active"
-            android:textSize="14sp" />
-
-        <EditText
-            android:id="@+id/editTextDescription"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/primary_light_rounded_rectangle"
-            android:drawablePadding="10dp"
-            android:gravity="start|center_vertical"
-            android:hint="Product Desciption"
-            android:imeOptions="actionNext"
-            android:inputType="textLongMessage"
-            android:maxLength="100"
             android:paddingEnd="10dp"
             android:paddingStart="10dp"
             android:textColor="@color/dot_active"

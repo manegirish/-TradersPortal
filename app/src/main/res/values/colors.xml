@@ -24,4 +24,8 @@
     <color name="grey_e7">#e7e7e7</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="text_color_primary">#262626</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="text_color_ternary">#9e9e9e</color>
+
 </resources>
