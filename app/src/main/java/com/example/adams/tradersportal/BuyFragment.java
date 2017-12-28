@@ -3,9 +3,11 @@ package com.example.adams.tradersportal;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -28,7 +30,14 @@ public class BuyFragment extends Fragment {
         activity = getActivity();
 
         ListView listView = (ListView) rootView.findViewById(R.id.listView);
-
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                SellProduct_ sellProduct_ = (SellProduct_) adapterView.getItemAtPosition(i);
+                String name = sellProduct_.getName();
+                String price = sellProduct_.getPrice();
+            }
+        });
         setList(listView);
 
         return rootView;
